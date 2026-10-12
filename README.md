@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Permitrix — University Technical-Event Approvals and Attendance Monitoring System
 
 Permitrix is a responsive full-stack university governance portal designed for managing students' On-Duty (OD) technical event permissions, verifying attendance eligibility, coordinating multi-stage proctor & dean approvals, and bulk-importing attendance records via Excel/CSV.
@@ -134,3 +135,6 @@ NODE_ENV=development
 ## 7. Database Persistence
 
 Data is stored in `server/data/permitrix_db.json`. When the application initializes for the first time, it automatically verifies that at least 36 students and 12 sample requests across all workflow statuses are seeded. Any updates (new requests, CSV imports, proctor reviews, administrator decisions, setting changes) persist directly to disk.
+=======
+# permitrix
+>>>>>>> fea57dbf6cbb793c42141406ce60c1b7308c18a1
