@@ -1,0 +1,1813 @@
+{
+  "users": [
+    {
+      "id": "usr-admin-1",
+      "email": "admin@university.edu",
+      "name": "Dr. Evelyn Vance",
+      "role": "admin",
+      "password": "admin123",
+      "department": "Academic Affairs & Administration",
+      "phone": "+1 (555) 019-8234",
+      "createdAt": "2026-06-14T04:00:00.000Z"
+    },
+    {
+      "id": "usr-proctor-sharma",
+      "email": "proctor.sharma@university.edu",
+      "name": "Prof. Rajesh Sharma",
+      "role": "proctor",
+      "password": "proctor123",
+      "department": "Computer Science & Engineering",
+      "phone": "+1 (555) 019-3341",
+      "proctorDetails": {
+        "designation": "Associate Professor & Senior Proctor",
+        "cabin": "Tech Block B, Room 304"
+      },
+      "createdAt": "2026-06-14T04:00:00.000Z"
+    },
+    {
+      "id": "usr-proctor-chen",
+      "email": "proctor.chen@university.edu",
+      "name": "Prof. Mei Chen",
+      "role": "proctor",
+      "password": "proctor123",
+      "department": "Information Technology & AI",
+      "phone": "+1 (555) 019-7729",
+      "proctorDetails": {
+        "designation": "Associate Professor & Proctor",
+        "cabin": "IT Complex, Room 212"
+      },
+      "createdAt": "2026-06-14T04:00:00.000Z"
+    },
+    {
+      "id": "usr-stud-001",
+      "email": "student.aarav.patel@university.edu",
+      "name": "Aarav Patel",
+      "role": "student",
+      "password": "student123",
+      "department": "Computer Science",
+      "phone": "+1 (555) 018-000",
+      "studentDetails": {
+        "rollNo": "23CS001",
+        "registerNo": "REG2023CS001",
+        "proctorId": "usr-proctor-sharma",
+        "batch": "2023-2027",
+        "section": "A"
+      },
+      "createdAt": "2026-07-14T04:00:00.000Z"
+    },
+    {
+      "id": "usr-stud-002",
+      "email": "student.diya.sengupta@university.edu",
+      "name": "Diya Sengupta",
+      "role": "student",
+      "password": "student123",
+      "department": "Computer Science",
+      "phone": "+1 (555) 018-001",
+      "studentDetails": {
+        "rollNo": "23CS002",
+        "registerNo": "REG2023CS002",
+        "proctorId": "usr-proctor-sharma",
+        "batch": "2023-2027",
+        "section": "A"
+      },
+      "createdAt": "2026-07-14T04:00:00.000Z"
+    },
+    {
+      "id": "usr-stud-003",
+      "email": "student.rohan.nair@university.edu",
+      "name": "Rohan Nair",
+      "role": "student",
+      "password": "student123",
+      "department": "Computer Science",
+      "phone": "+1 (555) 018-002",
+      "studentDetails": {
+        "rollNo": "23CS003",
+        "registerNo": "REG2023CS003",
+        "proctorId": "usr-proctor-sharma",
+        "batch": "2023-2027",
+        "section": "A"
+      },
+      "createdAt": "2026-07-14T04:00:00.000Z"
+    },
+    {
+      "id": "usr-stud-004",
+      "email": "student.ananya.iyer@university.edu",
+      "name": "Ananya Iyer",
+      "role": "student",
+      "password": "student123",
+      "department": "Computer Science",
+      "phone": "+1 (555) 018-003",
+      "studentDetails": {
+        "rollNo": "23CS004",
+        "registerNo": "REG2023CS004",
+        "proctorId": "usr-proctor-sharma",
+        "batch": "2023-2027",
+        "section": "A"
+      },
+      "createdAt": "2026-07-14T04:00:00.000Z"
+    },
+    {
+      "id": "usr-stud-005",
+      "email": "student.vikram.malhotra@university.edu",
+      "name": "Vikram Malhotra",
+      "role": "student",
+      "password": "student123",
+      "department": "Computer Science",
+      "phone": "+1 (555) 018-004",
+      "studentDetails": {
+        "rollNo": "23CS005",
+        "registerNo": "REG2023CS005",
+        "proctorId": "usr-proctor-sharma",
+        "batch": "2023-2027",
+        "section": "A"
+      },
+      "createdAt": "2026-07-14T04:00:00.000Z"
+    },
+    {
+      "id": "usr-stud-006",
+      "email": "student.sneha.kulkarni@university.edu",
+      "name": "Sneha Kulkarni",
+      "role": "student",
+      "password": "student123",
+      "department": "Computer Science",
+      "phone": "+1 (555) 018-005",
+      "studentDetails": {
+        "rollNo": "23CS006",
+        "registerNo": "REG2023CS006",
+        "proctorId": "usr-proctor-sharma",
+        "batch": "2023-2027",
+        "section": "A"
+      },
+      "createdAt": "2026-07-14T04:00:00.000Z"
+    },
+    {
+      "id": "usr-stud-007",
+      "email": "student.kabir.mehta@university.edu",
+      "name": "Kabir Mehta",
+      "role": "student",
+      "password": "student123",
+      "department": "Computer Science",
+      "phone": "+1 (555) 018-006",
+      "studentDetails": {
+        "rollNo": "23CS007",
+        "registerNo": "REG2023CS007",
+        "proctorId": "usr-proctor-sharma",
+        "batch": "2023-2027",
+        "section": "A"
+      },
+      "createdAt": "2026-07-14T04:00:00.000Z"
+    },
+    {
+      "id": "usr-stud-008",
+      "email": "student.ishita.roy@university.edu",
+      "name": "Ishita Roy",
+      "role": "student",
+      "password": "student123",
+      "department": "Computer Science",
+      "phone": "+1 (555) 018-007",
+      "studentDetails": {
+        "rollNo": "23CS008",
+        "registerNo": "REG2023CS008",
+        "proctorId": "usr-proctor-sharma",
+        "batch": "2023-2027",
+        "section": "A"
+      },
+      "createdAt": "2026-07-14T04:00:00.000Z"
+    },
+    {
+      "id": "usr-stud-009",
+      "email": "student.tanmay.joshi@university.edu",
+      "name": "Tanmay Joshi",
+      "role": "student",
+      "password": "student123",
+      "department": "Computer Science",
+      "phone": "+1 (555) 018-008",
+      "studentDetails": {
+        "rollNo": "23CS009",
+        "registerNo": "REG2023CS009",
+        "proctorId": "usr-proctor-sharma",
+        "batch": "2023-2027",
+        "section": "A"
+      },
+      "createdAt": "2026-07-14T04:00:00.000Z"
+    },
+    {
+      "id": "usr-stud-010",
+      "email": "student.pooja.reddy@university.edu",
+      "name": "Pooja Reddy",
+      "role": "student",
+      "password": "student123",
+      "department": "Computer Science",
+      "phone": "+1 (555) 018-009",
+      "studentDetails": {
+        "rollNo": "23CS010",
+        "registerNo": "REG2023CS010",
+        "proctorId": "usr-proctor-sharma",
+        "batch": "2023-2027",
+        "section": "A"
+      },
+      "createdAt": "2026-07-14T04:00:00.000Z"
+    },
+    {
+      "id": "usr-stud-011",
+      "email": "student.aditya.verma@university.edu",
+      "name": "Aditya Verma",
+      "role": "student",
+      "password": "student123",
+      "department": "Computer Science",
+      "phone": "+1 (555) 018-010",
+      "studentDetails": {
+        "rollNo": "23CS011",
+        "registerNo": "REG2023CS011",
+        "proctorId": "usr-proctor-sharma",
+        "batch": "2023-2027",
+        "section": "A"
+      },
+      "createdAt": "2026-07-14T04:00:00.000Z"
+    },
+    {
+      "id": "usr-stud-012",
+      "email": "student.meera.menon@university.edu",
+      "name": "Meera Menon",
+      "role": "student",
+      "password": "student123",
+      "department": "Computer Science",
+      "phone": "+1 (555) 018-011",
+      "studentDetails": {
+        "rollNo": "23CS012",
+        "registerNo": "REG2023CS012",
+        "proctorId": "usr-proctor-sharma",
+        "batch": "2023-2027",
+        "section": "A"
+      },
+      "createdAt": "2026-07-14T04:00:00.000Z"
+    },
+    {
+      "id": "usr-stud-013",
+      "email": "student.karthik.sundaram@university.edu",
+      "name": "Karthik Sundaram",
+      "role": "student",
+      "password": "student123",
+      "department": "Computer Science",
+      "phone": "+1 (555) 018-012",
+      "studentDetails": {
+        "rollNo": "23CS013",
+        "registerNo": "REG2023CS013",
+        "proctorId": "usr-proctor-sharma",
+        "batch": "2023-2027",
+        "section": "A"
+      },
+      "createdAt": "2026-07-14T04:00:00.000Z"
+    },
+    {
+      "id": "usr-stud-014",
+      "email": "student.ritu.deshmukh@university.edu",
+      "name": "Ritu Deshmukh",
+      "role": "student",
+      "password": "student123",
+      "department": "Computer Science",
+      "phone": "+1 (555) 018-013",
+      "studentDetails": {
+        "rollNo": "23CS014",
+        "registerNo": "REG2023CS014",
+        "proctorId": "usr-proctor-sharma",
+        "batch": "2023-2027",
+        "section": "A"
+      },
+      "createdAt": "2026-07-14T04:00:00.000Z"
+    },
+    {
+      "id": "usr-stud-015",
+      "email": "student.siddharth.rao@university.edu",
+      "name": "Siddharth Rao",
+      "role": "student",
+      "password": "student123",
+      "department": "Computer Science",
+      "phone": "+1 (555) 018-014",
+      "studentDetails": {
+        "rollNo": "23CS015",
+        "registerNo": "REG2023CS015",
+        "proctorId": "usr-proctor-sharma",
+        "batch": "2023-2027",
+        "section": "A"
+      },
+      "createdAt": "2026-07-14T04:00:00.000Z"
+    },
+    {
+      "id": "usr-stud-016",
+      "email": "student.natasha.gupta@university.edu",
+      "name": "Natasha Gupta",
+      "role": "student",
+      "password": "student123",
+      "department": "Computer Science",
+      "phone": "+1 (555) 018-015",
+      "studentDetails": {
+        "rollNo": "23CS016",
+        "registerNo": "REG2023CS016",
+        "proctorId": "usr-proctor-sharma",
+        "batch": "2023-2027",
+        "section": "A"
+      },
+      "createdAt": "2026-07-14T04:00:00.000Z"
+    },
+    {
+      "id": "usr-stud-017",
+      "email": "student.farhan.khan@university.edu",
+      "name": "Farhan Khan",
+      "role": "student",
+      "password": "student123",
+      "department": "Computer Science",
+      "phone": "+1 (555) 018-016",
+      "studentDetails": {
+        "rollNo": "23CS017",
+        "registerNo": "REG2023CS017",
+        "proctorId": "usr-proctor-sharma",
+        "batch": "2023-2027",
+        "section": "A"
+      },
+      "createdAt": "2026-07-14T04:00:00.000Z"
+    },
+    {
+      "id": "usr-stud-018",
+      "email": "student.lavanya.bhat@university.edu",
+      "name": "Lavanya Bhat",
+      "role": "student",
+      "password": "student123",
+      "department": "Computer Science",
+      "phone": "+1 (555) 018-017",
+      "studentDetails": {
+        "rollNo": "23CS018",
+        "registerNo": "REG2023CS018",
+        "proctorId": "usr-proctor-sharma",
+        "batch": "2023-2027",
+        "section": "A"
+      },
+      "createdAt": "2026-07-14T04:00:00.000Z"
+    },
+    {
+      "id": "usr-stud-019",
+      "email": "student.arjun.singhania@university.edu",
+      "name": "Arjun Singhania",
+      "role": "student",
+      "password": "student123",
+      "department": "Information Tech",
+      "phone": "+1 (555) 018-018",
+      "studentDetails": {
+        "rollNo": "23CS019",
+        "registerNo": "REG2023CS019",
+        "proctorId": "usr-proctor-chen",
+        "batch": "2023-2027",
+        "section": "B"
+      },
+      "createdAt": "2026-07-14T04:00:00.000Z"
+    },
+    {
+      "id": "usr-stud-020",
+      "email": "student.shruti.pillai@university.edu",
+      "name": "Shruti Pillai",
+      "role": "student",
+      "password": "student123",
+      "department": "Information Tech",
+      "phone": "+1 (555) 018-019",
+      "studentDetails": {
+        "rollNo": "23CS020",
+        "registerNo": "REG2023CS020",
+        "proctorId": "usr-proctor-chen",
+        "batch": "2023-2027",
+        "section": "B"
+      },
+      "createdAt": "2026-07-14T04:00:00.000Z"
+    },
+    {
+      "id": "usr-stud-021",
+      "email": "student.devendra.prasad@university.edu",
+      "name": "Devendra Prasad",
+      "role": "student",
+      "password": "student123",
+      "department": "Information Tech",
+      "phone": "+1 (555) 018-020",
+      "studentDetails": {
+        "rollNo": "23CS021",
+        "registerNo": "REG2023CS021",
+        "proctorId": "usr-proctor-chen",
+        "batch": "2023-2027",
+        "section": "B"
+      },
+      "createdAt": "2026-07-14T04:00:00.000Z"
+    },
+    {
+      "id": "usr-stud-022",
+      "email": "student.alisha.d.souza@university.edu",
+      "name": "Alisha D Souza",
+      "role": "student",
+      "password": "student123",
+      "department": "Information Tech",
+      "phone": "+1 (555) 018-021",
+      "studentDetails": {
+        "rollNo": "23CS022",
+        "registerNo": "REG2023CS022",
+        "proctorId": "usr-proctor-chen",
+        "batch": "2023-2027",
+        "section": "B"
+      },
+      "createdAt": "2026-07-14T04:00:00.000Z"
+    },
+    {
+      "id": "usr-stud-023",
+      "email": "student.varun.nambiar@university.edu",
+      "name": "Varun Nambiar",
+      "role": "student",
+      "password": "student123",
+      "department": "Information Tech",
+      "phone": "+1 (555) 018-022",
+      "studentDetails": {
+        "rollNo": "23CS023",
+        "registerNo": "REG2023CS023",
+        "proctorId": "usr-proctor-chen",
+        "batch": "2023-2027",
+        "section": "B"
+      },
+      "createdAt": "2026-07-14T04:00:00.000Z"
+    },
+    {
+      "id": "usr-stud-024",
+      "email": "student.tanya.chawla@university.edu",
+      "name": "Tanya Chawla",
+      "role": "student",
+      "password": "student123",
+      "department": "Information Tech",
+      "phone": "+1 (555) 018-023",
+      "studentDetails": {
+        "rollNo": "23CS024",
+        "registerNo": "REG2023CS024",
+        "proctorId": "usr-proctor-chen",
+        "batch": "2023-2027",
+        "section": "B"
+      },
+      "createdAt": "2026-07-14T04:00:00.000Z"
+    },
+    {
+      "id": "usr-stud-025",
+      "email": "student.nikhil.bhattacharya@university.edu",
+      "name": "Nikhil Bhattacharya",
+      "role": "student",
+      "password": "student123",
+      "department": "Information Tech",
+      "phone": "+1 (555) 018-024",
+      "studentDetails": {
+        "rollNo": "23CS025",
+        "registerNo": "REG2023CS025",
+        "proctorId": "usr-proctor-chen",
+        "batch": "2023-2027",
+        "section": "B"
+      },
+      "createdAt": "2026-07-14T04:00:00.000Z"
+    },
+    {
+      "id": "usr-stud-026",
+      "email": "student.sanjana.das@university.edu",
+      "name": "Sanjana Das",
+      "role": "student",
+      "password": "student123",
+      "department": "Information Tech",
+      "phone": "+1 (555) 018-025",
+      "studentDetails": {
+        "rollNo": "23CS026",
+        "registerNo": "REG2023CS026",
+        "proctorId": "usr-proctor-chen",
+        "batch": "2023-2027",
+        "section": "B"
+      },
+      "createdAt": "2026-07-14T04:00:00.000Z"
+    },
+    {
+      "id": "usr-stud-027",
+      "email": "student.yashwant.kumar@university.edu",
+      "name": "Yashwant Kumar",
+      "role": "student",
+      "password": "student123",
+      "department": "Information Tech",
+      "phone": "+1 (555) 018-026",
+      "studentDetails": {
+        "rollNo": "23CS027",
+        "registerNo": "REG2023CS027",
+        "proctorId": "usr-proctor-chen",
+        "batch": "2023-2027",
+        "section": "B"
+      },
+      "createdAt": "2026-07-14T04:00:00.000Z"
+    },
+    {
+      "id": "usr-stud-028",
+      "email": "student.bhavna.somani@university.edu",
+      "name": "Bhavna Somani",
+      "role": "student",
+      "password": "student123",
+      "department": "Information Tech",
+      "phone": "+1 (555) 018-027",
+      "studentDetails": {
+        "rollNo": "23CS028",
+        "registerNo": "REG2023CS028",
+        "proctorId": "usr-proctor-chen",
+        "batch": "2023-2027",
+        "section": "B"
+      },
+      "createdAt": "2026-07-14T04:00:00.000Z"
+    },
+    {
+      "id": "usr-stud-029",
+      "email": "student.pranav.tiwari@university.edu",
+      "name": "Pranav Tiwari",
+      "role": "student",
+      "password": "student123",
+      "department": "Information Tech",
+      "phone": "+1 (555) 018-028",
+      "studentDetails": {
+        "rollNo": "23CS029",
+        "registerNo": "REG2023CS029",
+        "proctorId": "usr-proctor-chen",
+        "batch": "2023-2027",
+        "section": "B"
+      },
+      "createdAt": "2026-07-14T04:00:00.000Z"
+    },
+    {
+      "id": "usr-stud-030",
+      "email": "student.kavya.natarajan@university.edu",
+      "name": "Kavya Natarajan",
+      "role": "student",
+      "password": "student123",
+      "department": "Information Tech",
+      "phone": "+1 (555) 018-029",
+      "studentDetails": {
+        "rollNo": "23CS030",
+        "registerNo": "REG2023CS030",
+        "proctorId": "usr-proctor-chen",
+        "batch": "2023-2027",
+        "section": "B"
+      },
+      "createdAt": "2026-07-14T04:00:00.000Z"
+    },
+    {
+      "id": "usr-stud-031",
+      "email": "student.rishabh.saxena@university.edu",
+      "name": "Rishabh Saxena",
+      "role": "student",
+      "password": "student123",
+      "department": "Information Tech",
+      "phone": "+1 (555) 018-030",
+      "studentDetails": {
+        "rollNo": "23CS031",
+        "registerNo": "REG2023CS031",
+        "proctorId": "usr-proctor-chen",
+        "batch": "2023-2027",
+        "section": "B"
+      },
+      "createdAt": "2026-07-14T04:00:00.000Z"
+    },
+    {
+      "id": "usr-stud-032",
+      "email": "student.swati.aggarwal@university.edu",
+      "name": "Swati Aggarwal",
+      "role": "student",
+      "password": "student123",
+      "department": "Information Tech",
+      "phone": "+1 (555) 018-031",
+      "studentDetails": {
+        "rollNo": "23CS032",
+        "registerNo": "REG2023CS032",
+        "proctorId": "usr-proctor-chen",
+        "batch": "2023-2027",
+        "section": "B"
+      },
+      "createdAt": "2026-07-14T04:00:00.000Z"
+    },
+    {
+      "id": "usr-stud-033",
+      "email": "student.harish.pillai@university.edu",
+      "name": "Harish Pillai",
+      "role": "student",
+      "password": "student123",
+      "department": "Information Tech",
+      "phone": "+1 (555) 018-032",
+      "studentDetails": {
+        "rollNo": "23CS033",
+        "registerNo": "REG2023CS033",
+        "proctorId": "usr-proctor-chen",
+        "batch": "2023-2027",
+        "section": "B"
+      },
+      "createdAt": "2026-07-14T04:00:00.000Z"
+    },
+    {
+      "id": "usr-stud-034",
+      "email": "student.zainab.fatima@university.edu",
+      "name": "Zainab Fatima",
+      "role": "student",
+      "password": "student123",
+      "department": "Information Tech",
+      "phone": "+1 (555) 018-033",
+      "studentDetails": {
+        "rollNo": "23CS034",
+        "registerNo": "REG2023CS034",
+        "proctorId": "usr-proctor-chen",
+        "batch": "2023-2027",
+        "section": "B"
+      },
+      "createdAt": "2026-07-14T04:00:00.000Z"
+    },
+    {
+      "id": "usr-stud-035",
+      "email": "student.aman.bansal@university.edu",
+      "name": "Aman Bansal",
+      "role": "student",
+      "password": "student123",
+      "department": "Information Tech",
+      "phone": "+1 (555) 018-034",
+      "studentDetails": {
+        "rollNo": "23CS035",
+        "registerNo": "REG2023CS035",
+        "proctorId": "usr-proctor-chen",
+        "batch": "2023-2027",
+        "section": "B"
+      },
+      "createdAt": "2026-07-14T04:00:00.000Z"
+    },
+    {
+      "id": "usr-stud-036",
+      "email": "student.charulata.sen@university.edu",
+      "name": "Charulata Sen",
+      "role": "student",
+      "password": "student123",
+      "department": "Information Tech",
+      "phone": "+1 (555) 018-035",
+      "studentDetails": {
+        "rollNo": "23CS036",
+        "registerNo": "REG2023CS036",
+        "proctorId": "usr-proctor-chen",
+        "batch": "2023-2027",
+        "section": "B"
+      },
+      "createdAt": "2026-07-14T04:00:00.000Z"
+    }
+  ],
+  "attendance": [
+    {
+      "id": "att-23CS001",
+      "studentId": "usr-stud-001",
+      "rollNo": "23CS001",
+      "classesConducted": 125,
+      "classesAttended": 114,
+      "percentage": 91.2,
+      "lastUpdated": "2026-10-08",
+      "semester": "Semester 5",
+      "academicYear": "2026-2027"
+    },
+    {
+      "id": "att-23CS002",
+      "studentId": "usr-stud-002",
+      "rollNo": "23CS002",
+      "classesConducted": 120,
+      "classesAttended": 105,
+      "percentage": 87.5,
+      "lastUpdated": "2026-10-07",
+      "semester": "Semester 5",
+      "academicYear": "2026-2027"
+    },
+    {
+      "id": "att-23CS003",
+      "studentId": "usr-stud-003",
+      "rollNo": "23CS003",
+      "classesConducted": 112,
+      "classesAttended": 92,
+      "percentage": 82.1,
+      "lastUpdated": "2026-10-04",
+      "semester": "Semester 5",
+      "academicYear": "2026-2027"
+    },
+    {
+      "id": "att-23CS004",
+      "studentId": "usr-stud-004",
+      "rollNo": "23CS004",
+      "classesConducted": 125,
+      "classesAttended": 96,
+      "percentage": 76.8,
+      "lastUpdated": "2026-10-06",
+      "semester": "Semester 5",
+      "academicYear": "2026-2027"
+    },
+    {
+      "id": "att-23CS005",
+      "studentId": "usr-stud-005",
+      "rollNo": "23CS005",
+      "classesConducted": 119,
+      "classesAttended": 85,
+      "percentage": 71.4,
+      "lastUpdated": "2026-10-02",
+      "semester": "Semester 5",
+      "academicYear": "2026-2027"
+    },
+    {
+      "id": "att-23CS006",
+      "studentId": "usr-stud-006",
+      "rollNo": "23CS006",
+      "classesConducted": 125,
+      "classesAttended": 85,
+      "percentage": 68,
+      "lastUpdated": "2026-10-05",
+      "semester": "Semester 5",
+      "academicYear": "2026-2027"
+    },
+    {
+      "id": "att-23CS007",
+      "studentId": "usr-stud-007",
+      "rollNo": "23CS007",
+      "classesConducted": 120,
+      "classesAttended": 102,
+      "percentage": 85,
+      "lastUpdated": "2026-10-07",
+      "semester": "Semester 5",
+      "academicYear": "2026-2027"
+    },
+    {
+      "id": "att-23CS008",
+      "studentId": "usr-stud-008",
+      "rollNo": "23CS008",
+      "classesConducted": 116,
+      "classesAttended": 109,
+      "percentage": 94,
+      "lastUpdated": "2026-10-09",
+      "semester": "Semester 5",
+      "academicYear": "2026-2027"
+    },
+    {
+      "id": "att-23CS009",
+      "studentId": "usr-stud-009",
+      "rollNo": "23CS009",
+      "classesConducted": 120,
+      "classesAttended": 75,
+      "percentage": 62.5,
+      "lastUpdated": "2026-10-03",
+      "semester": "Semester 5",
+      "academicYear": "2026-2027"
+    },
+    {
+      "id": "att-23CS010",
+      "studentId": "usr-stud-010",
+      "rollNo": "23CS010",
+      "classesConducted": null,
+      "classesAttended": null,
+      "percentage": null,
+      "lastUpdated": null,
+      "semester": "Semester 5",
+      "academicYear": "2026-2027"
+    },
+    {
+      "id": "att-23CS011",
+      "studentId": "usr-stud-011",
+      "rollNo": "23CS011",
+      "classesConducted": 115,
+      "classesAttended": 92,
+      "percentage": 80,
+      "lastUpdated": "2026-08-21",
+      "semester": "Semester 5",
+      "academicYear": "2026-2027"
+    },
+    {
+      "id": "att-23CS012",
+      "studentId": "usr-stud-012",
+      "rollNo": "23CS012",
+      "classesConducted": 112,
+      "classesAttended": 100,
+      "percentage": 89.3,
+      "lastUpdated": "2026-10-08",
+      "semester": "Semester 5",
+      "academicYear": "2026-2027"
+    },
+    {
+      "id": "att-23CS013",
+      "studentId": "usr-stud-013",
+      "rollNo": "23CS013",
+      "classesConducted": 114,
+      "classesAttended": 88,
+      "percentage": 77.2,
+      "lastUpdated": "2026-10-06",
+      "semester": "Semester 5",
+      "academicYear": "2026-2027"
+    },
+    {
+      "id": "att-23CS014",
+      "studentId": "usr-stud-014",
+      "rollNo": "23CS014",
+      "classesConducted": 117,
+      "classesAttended": 75,
+      "percentage": 64.1,
+      "lastUpdated": "2026-10-01",
+      "semester": "Semester 5",
+      "academicYear": "2026-2027"
+    },
+    {
+      "id": "att-23CS015",
+      "studentId": "usr-stud-015",
+      "rollNo": "23CS015",
+      "classesConducted": 120,
+      "classesAttended": 111,
+      "percentage": 92.5,
+      "lastUpdated": "2026-10-10",
+      "semester": "Semester 5",
+      "academicYear": "2026-2027"
+    },
+    {
+      "id": "att-23CS016",
+      "studentId": "usr-stud-016",
+      "rollNo": "23CS016",
+      "classesConducted": null,
+      "classesAttended": null,
+      "percentage": null,
+      "lastUpdated": null,
+      "semester": "Semester 5",
+      "academicYear": "2026-2027"
+    },
+    {
+      "id": "att-23CS017",
+      "studentId": "usr-stud-017",
+      "rollNo": "23CS017",
+      "classesConducted": 117,
+      "classesAttended": 99,
+      "percentage": 84.6,
+      "lastUpdated": "2026-10-04",
+      "semester": "Semester 5",
+      "academicYear": "2026-2027"
+    },
+    {
+      "id": "att-23CS018",
+      "studentId": "usr-stud-018",
+      "rollNo": "23CS018",
+      "classesConducted": 112,
+      "classesAttended": 82,
+      "percentage": 73.2,
+      "lastUpdated": "2026-10-05",
+      "semester": "Semester 5",
+      "academicYear": "2026-2027"
+    },
+    {
+      "id": "att-23CS019",
+      "studentId": "usr-stud-019",
+      "rollNo": "23CS019",
+      "classesConducted": 121,
+      "classesAttended": 107,
+      "percentage": 88.4,
+      "lastUpdated": "2026-10-08",
+      "semester": "Semester 5",
+      "academicYear": "2026-2027"
+    },
+    {
+      "id": "att-23CS020",
+      "studentId": "usr-stud-020",
+      "rollNo": "23CS020",
+      "classesConducted": 125,
+      "classesAttended": 80,
+      "percentage": 64,
+      "lastUpdated": "2026-10-03",
+      "semester": "Semester 5",
+      "academicYear": "2026-2027"
+    },
+    {
+      "id": "att-23CS021",
+      "studentId": "usr-stud-021",
+      "rollNo": "23CS021",
+      "classesConducted": 115,
+      "classesAttended": 96,
+      "percentage": 83.5,
+      "lastUpdated": "2026-10-05",
+      "semester": "Semester 5",
+      "academicYear": "2026-2027"
+    },
+    {
+      "id": "att-23CS022",
+      "studentId": "usr-stud-022",
+      "rollNo": "23CS022",
+      "classesConducted": 110,
+      "classesAttended": 87,
+      "percentage": 79.1,
+      "lastUpdated": "2026-08-25",
+      "semester": "Semester 5",
+      "academicYear": "2026-2027"
+    },
+    {
+      "id": "att-23CS023",
+      "studentId": "usr-stud-023",
+      "rollNo": "23CS023",
+      "classesConducted": null,
+      "classesAttended": null,
+      "percentage": null,
+      "lastUpdated": null,
+      "semester": "Semester 5",
+      "academicYear": "2026-2027"
+    },
+    {
+      "id": "att-23CS024",
+      "studentId": "usr-stud-024",
+      "rollNo": "23CS024",
+      "classesConducted": 120,
+      "classesAttended": 114,
+      "percentage": 95,
+      "lastUpdated": "2026-10-09",
+      "semester": "Semester 5",
+      "academicYear": "2026-2027"
+    },
+    {
+      "id": "att-23CS025",
+      "studentId": "usr-stud-025",
+      "rollNo": "23CS025",
+      "classesConducted": 113,
+      "classesAttended": 80,
+      "percentage": 70.8,
+      "lastUpdated": "2026-10-02",
+      "semester": "Semester 5",
+      "academicYear": "2026-2027"
+    },
+    {
+      "id": "att-23CS026",
+      "studentId": "usr-stud-026",
+      "rollNo": "23CS026",
+      "classesConducted": 116,
+      "classesAttended": 100,
+      "percentage": 86.2,
+      "lastUpdated": "2026-10-07",
+      "semester": "Semester 5",
+      "academicYear": "2026-2027"
+    },
+    {
+      "id": "att-23CS027",
+      "studentId": "usr-stud-027",
+      "rollNo": "23CS027",
+      "classesConducted": 114,
+      "classesAttended": 90,
+      "percentage": 78.9,
+      "lastUpdated": "2026-10-06",
+      "semester": "Semester 5",
+      "academicYear": "2026-2027"
+    },
+    {
+      "id": "att-23CS028",
+      "studentId": "usr-stud-028",
+      "rollNo": "23CS028",
+      "classesConducted": 120,
+      "classesAttended": 110,
+      "percentage": 91.7,
+      "lastUpdated": "2026-10-08",
+      "semester": "Semester 5",
+      "academicYear": "2026-2027"
+    },
+    {
+      "id": "att-23CS029",
+      "studentId": "usr-stud-029",
+      "rollNo": "23CS029",
+      "classesConducted": 117,
+      "classesAttended": 72,
+      "percentage": 61.5,
+      "lastUpdated": "2026-10-04",
+      "semester": "Semester 5",
+      "academicYear": "2026-2027"
+    },
+    {
+      "id": "att-23CS030",
+      "studentId": "usr-stud-030",
+      "rollNo": "23CS030",
+      "classesConducted": 125,
+      "classesAttended": 110,
+      "percentage": 88,
+      "lastUpdated": "2026-10-10",
+      "semester": "Semester 5",
+      "academicYear": "2026-2027"
+    },
+    {
+      "id": "att-23CS031",
+      "studentId": "usr-stud-031",
+      "rollNo": "23CS031",
+      "classesConducted": 115,
+      "classesAttended": 88,
+      "percentage": 76.5,
+      "lastUpdated": "2026-10-05",
+      "semester": "Semester 5",
+      "academicYear": "2026-2027"
+    },
+    {
+      "id": "att-23CS032",
+      "studentId": "usr-stud-032",
+      "rollNo": "23CS032",
+      "classesConducted": null,
+      "classesAttended": null,
+      "percentage": null,
+      "lastUpdated": null,
+      "semester": "Semester 5",
+      "academicYear": "2026-2027"
+    },
+    {
+      "id": "att-23CS033",
+      "studentId": "usr-stud-033",
+      "rollNo": "23CS033",
+      "classesConducted": 117,
+      "classesAttended": 95,
+      "percentage": 81.2,
+      "lastUpdated": "2026-08-29",
+      "semester": "Semester 5",
+      "academicYear": "2026-2027"
+    },
+    {
+      "id": "att-23CS034",
+      "studentId": "usr-stud-034",
+      "rollNo": "23CS034",
+      "classesConducted": 114,
+      "classesAttended": 102,
+      "percentage": 89.5,
+      "lastUpdated": "2026-10-07",
+      "semester": "Semester 5",
+      "academicYear": "2026-2027"
+    },
+    {
+      "id": "att-23CS035",
+      "studentId": "usr-stud-035",
+      "rollNo": "23CS035",
+      "classesConducted": 125,
+      "classesAttended": 90,
+      "percentage": 72,
+      "lastUpdated": "2026-10-06",
+      "semester": "Semester 5",
+      "academicYear": "2026-2027"
+    },
+    {
+      "id": "att-23CS036",
+      "studentId": "usr-stud-036",
+      "rollNo": "23CS036",
+      "classesConducted": 116,
+      "classesAttended": 108,
+      "percentage": 93.1,
+      "lastUpdated": "2026-10-09",
+      "semester": "Semester 5",
+      "academicYear": "2026-2027"
+    }
+  ],
+  "requests": [
+    {
+      "id": "REQ-2026-001",
+      "studentId": "usr-stud-001",
+      "studentName": "Aarav Patel",
+      "rollNo": "23CS001",
+      "department": "Computer Science",
+      "proctorId": "usr-proctor-sharma",
+      "proctorName": "Prof. Rajesh Sharma",
+      "eventTitle": "National University Hackathon 2026",
+      "category": "Hackathon",
+      "organizer": "Indian Institute of Technology (IIT) Delhi",
+      "location": "New Delhi (In-Person)",
+      "mode": "In-Person",
+      "startDate": "2026-10-24",
+      "endDate": "2026-10-26",
+      "odDays": 3,
+      "justification": "Selected as top 10 finalist team for AI in Healthcare track. Seeking OD for travel and 48-hour prototype demonstration.",
+      "supportingDocName": "IITD_Hackathon_Finalist_Invitation.pdf",
+      "status": "SUBMITTED",
+      "attendanceSnapshot": {
+        "conducted": 125,
+        "attended": 114,
+        "percentage": 91.2,
+        "lastUpdated": "2026-10-08",
+        "isEligible": true
+      },
+      "timeline": [
+        {
+          "id": "tl-1",
+          "timestamp": "2026-10-11T00:00:00.000Z",
+          "actorName": "Aarav Patel",
+          "actorRole": "student",
+          "action": "Submitted Request",
+          "remarks": "Submitted request with invitation letter."
+        }
+      ],
+      "createdAt": "2026-10-11T00:00:00.000Z",
+      "updatedAt": "2026-10-11T00:00:00.000Z"
+    },
+    {
+      "id": "REQ-2026-002",
+      "studentId": "usr-stud-002",
+      "studentName": "Diya Sengupta",
+      "rollNo": "23CS002",
+      "department": "Computer Science",
+      "proctorId": "usr-proctor-sharma",
+      "proctorName": "Prof. Rajesh Sharma",
+      "eventTitle": "IEEE International Conference on Neural Networks",
+      "category": "Conference",
+      "organizer": "IEEE Computational Intelligence Society",
+      "location": "Bengaluru Convention Center",
+      "mode": "In-Person",
+      "startDate": "2026-11-05",
+      "endDate": "2026-11-07",
+      "odDays": 3,
+      "justification": "Oral research paper presentation on \"Optimized Transformer Attention in Low-Power Edge Devices\". Student is lead author.",
+      "supportingDocName": "IEEE_ICNN_Acceptance_Letter.pdf",
+      "status": "PROCTOR_RECOMMENDED",
+      "attendanceSnapshot": {
+        "conducted": 120,
+        "attended": 105,
+        "percentage": 87.5,
+        "lastUpdated": "2026-10-07",
+        "isEligible": true
+      },
+      "proctorReview": {
+        "reviewedAt": "2026-10-10T04:00:00.000Z",
+        "recommendation": "RECOMMEND_APPROVE",
+        "remarks": "Prestigious peer-reviewed IEEE oral presentation. Student holds 87.5% attendance and no disciplinary record. Strongly recommended.",
+        "proctorName": "Prof. Rajesh Sharma"
+      },
+      "timeline": [
+        {
+          "id": "tl-2a",
+          "timestamp": "2026-10-09T04:00:00.000Z",
+          "actorName": "Diya Sengupta",
+          "actorRole": "student",
+          "action": "Submitted Request"
+        },
+        {
+          "id": "tl-2b",
+          "timestamp": "2026-10-10T04:00:00.000Z",
+          "actorName": "Prof. Rajesh Sharma",
+          "actorRole": "proctor",
+          "action": "Recommended Approval",
+          "remarks": "Prestigious peer-reviewed IEEE oral presentation. Strongly recommended."
+        }
+      ],
+      "createdAt": "2026-10-09T04:00:00.000Z",
+      "updatedAt": "2026-10-10T04:00:00.000Z"
+    },
+    {
+      "id": "REQ-2026-003",
+      "studentId": "usr-stud-003",
+      "studentName": "Rohan Nair",
+      "rollNo": "23CS003",
+      "department": "Computer Science",
+      "proctorId": "usr-proctor-sharma",
+      "proctorName": "Prof. Rajesh Sharma",
+      "eventTitle": "National Cyber Security CTF Challenge",
+      "category": "Coding Contest",
+      "organizer": "National Critical Information Infrastructure Protection Centre",
+      "location": "Hyderabad Tech Zone",
+      "mode": "In-Person",
+      "startDate": "2026-10-18",
+      "endDate": "2026-10-19",
+      "odDays": 2,
+      "justification": "University CTF team qualified for South Zone finals. Competing in reverse engineering and binary exploitation tracks.",
+      "supportingDocName": "CTF_Finals_Admit_Pass.pdf",
+      "status": "ADMIN_APPROVED",
+      "attendanceSnapshot": {
+        "conducted": 112,
+        "attended": 92,
+        "percentage": 82.1,
+        "lastUpdated": "2026-10-04",
+        "isEligible": true
+      },
+      "proctorReview": {
+        "reviewedAt": "2026-10-07T04:00:00.000Z",
+        "recommendation": "RECOMMEND_APPROVE",
+        "remarks": "Qualified in competitive rounds. 82.1% attendance meets requirements.",
+        "proctorName": "Prof. Rajesh Sharma"
+      },
+      "adminDecision": {
+        "decidedAt": "2026-10-08T04:00:00.000Z",
+        "decision": "APPROVE",
+        "remarks": "Approved for 2 days On-Duty status. Student must submit participation certificate within 3 working days post-event.",
+        "adminName": "Dr. Evelyn Vance"
+      },
+      "timeline": [
+        {
+          "id": "tl-3a",
+          "timestamp": "2026-10-06T04:00:00.000Z",
+          "actorName": "Rohan Nair",
+          "actorRole": "student",
+          "action": "Submitted Request"
+        },
+        {
+          "id": "tl-3b",
+          "timestamp": "2026-10-07T04:00:00.000Z",
+          "actorName": "Prof. Rajesh Sharma",
+          "actorRole": "proctor",
+          "action": "Recommended Approval",
+          "remarks": "Qualified in competitive rounds. Verified."
+        },
+        {
+          "id": "tl-3c",
+          "timestamp": "2026-10-08T04:00:00.000Z",
+          "actorName": "Dr. Evelyn Vance",
+          "actorRole": "admin",
+          "action": "Final Approval Granted",
+          "remarks": "Approved for 2 days OD leave."
+        }
+      ],
+      "createdAt": "2026-10-06T04:00:00.000Z",
+      "updatedAt": "2026-10-08T04:00:00.000Z"
+    },
+    {
+      "id": "REQ-2026-004",
+      "studentId": "usr-stud-004",
+      "studentName": "Ananya Iyer",
+      "rollNo": "23CS004",
+      "department": "Computer Science",
+      "proctorId": "usr-proctor-sharma",
+      "proctorName": "Prof. Rajesh Sharma",
+      "eventTitle": "Cloud Native DevOps Summit & Expo",
+      "category": "Workshop",
+      "organizer": "Cloud Native Computing Foundation (CNCF)",
+      "location": "Virtual / Online",
+      "mode": "Virtual",
+      "startDate": "2026-10-14",
+      "endDate": "2026-10-15",
+      "odDays": 2,
+      "justification": "Hands-on Kubernetes and service mesh masterclass during university lecture hours.",
+      "supportingDocName": "CNCF_Registration_Confirmation.pdf",
+      "status": "ADMIN_REJECTED",
+      "attendanceSnapshot": {
+        "conducted": 125,
+        "attended": 96,
+        "percentage": 76.8,
+        "lastUpdated": "2026-10-06",
+        "isEligible": true
+      },
+      "proctorReview": {
+        "reviewedAt": "2026-10-09T04:00:00.000Z",
+        "recommendation": "RECOMMEND_APPROVE",
+        "remarks": "Attendance meets minimum 75%. Good workshop.",
+        "proctorName": "Prof. Rajesh Sharma"
+      },
+      "adminDecision": {
+        "decidedAt": "2026-10-10T04:00:00.000Z",
+        "decision": "REJECT",
+        "remarks": "Virtual workshops without live evaluation do not warrant full duty leave during core lab instruction weeks.",
+        "rejectionReason": "Virtual event during active laboratory practical exam cycle; duty leave policy restricts non-competitive virtual summits.",
+        "adminName": "Dr. Evelyn Vance"
+      },
+      "timeline": [
+        {
+          "id": "tl-4a",
+          "timestamp": "2026-10-08T04:00:00.000Z",
+          "actorName": "Ananya Iyer",
+          "actorRole": "student",
+          "action": "Submitted Request"
+        },
+        {
+          "id": "tl-4b",
+          "timestamp": "2026-10-09T04:00:00.000Z",
+          "actorName": "Prof. Rajesh Sharma",
+          "actorRole": "proctor",
+          "action": "Recommended Approval"
+        },
+        {
+          "id": "tl-4c",
+          "timestamp": "2026-10-10T04:00:00.000Z",
+          "actorName": "Dr. Evelyn Vance",
+          "actorRole": "admin",
+          "action": "Final Rejection",
+          "remarks": "Virtual event during active laboratory practical exam cycle."
+        }
+      ],
+      "createdAt": "2026-10-08T04:00:00.000Z",
+      "updatedAt": "2026-10-10T04:00:00.000Z"
+    },
+    {
+      "id": "REQ-2026-005",
+      "studentId": "usr-stud-005",
+      "studentName": "Vikram Malhotra",
+      "rollNo": "23CS005",
+      "department": "Computer Science",
+      "proctorId": "usr-proctor-sharma",
+      "proctorName": "Prof. Rajesh Sharma",
+      "eventTitle": "National Robotics Expo & BattleBots",
+      "category": "Project Expo",
+      "organizer": "National Institute of Technology (NIT) Trichy",
+      "location": "NIT Campus, Trichy",
+      "mode": "In-Person",
+      "startDate": "2026-11-12",
+      "endDate": "2026-11-14",
+      "odDays": 3,
+      "justification": "Displaying 15kg combat robot in university robotics club contingent.",
+      "supportingDocName": "Incomplete_Brochure.pdf",
+      "status": "PROCTOR_RETURNED",
+      "attendanceSnapshot": {
+        "conducted": 119,
+        "attended": 85,
+        "percentage": 71.4,
+        "lastUpdated": "2026-10-02",
+        "isEligible": false,
+        "flagReason": "Attendance (71.4%) is below 75% threshold"
+      },
+      "proctorReview": {
+        "reviewedAt": "2026-10-11T04:00:00.000Z",
+        "recommendation": "RETURN_CORRECTION",
+        "remarks": "Attendance is 71.4% (below 75%). Please attach official Faculty Advisor endorsement and proof of college robotics club sponsorship to proceed for Dean review.",
+        "proctorName": "Prof. Rajesh Sharma"
+      },
+      "timeline": [
+        {
+          "id": "tl-5a",
+          "timestamp": "2026-10-09T04:00:00.000Z",
+          "actorName": "Vikram Malhotra",
+          "actorRole": "student",
+          "action": "Submitted Request"
+        },
+        {
+          "id": "tl-5b",
+          "timestamp": "2026-10-11T04:00:00.000Z",
+          "actorName": "Prof. Rajesh Sharma",
+          "actorRole": "proctor",
+          "action": "Returned for Correction",
+          "remarks": "Attendance below 75%. Attach official faculty advisor endorsement."
+        }
+      ],
+      "createdAt": "2026-10-09T04:00:00.000Z",
+      "updatedAt": "2026-10-11T04:00:00.000Z"
+    },
+    {
+      "id": "REQ-2026-006",
+      "studentId": "usr-stud-006",
+      "studentName": "Sneha Kulkarni",
+      "rollNo": "23CS006",
+      "department": "Computer Science",
+      "proctorId": "usr-proctor-sharma",
+      "proctorName": "Prof. Rajesh Sharma",
+      "eventTitle": "Global DevFest 2026 Hackathon",
+      "category": "Hackathon",
+      "organizer": "Google Developer Groups & Tech Hub",
+      "location": "Bengaluru Tech Park",
+      "mode": "In-Person",
+      "startDate": "2026-10-28",
+      "endDate": "2026-10-30",
+      "odDays": 3,
+      "justification": "University lead for Smart City Solution track. Required to attend demo pitching.",
+      "supportingDocName": "DevFest_Shortlist_Letter.pdf",
+      "status": "ADMIN_OVERRIDE_APPROVED",
+      "attendanceSnapshot": {
+        "conducted": 125,
+        "attended": 85,
+        "percentage": 68,
+        "lastUpdated": "2026-10-05",
+        "isEligible": false,
+        "flagReason": "Attendance (68.0%) is below 75% threshold"
+      },
+      "proctorReview": {
+        "reviewedAt": "2026-10-08T04:00:00.000Z",
+        "recommendation": "RECOMMEND_APPROVE",
+        "remarks": "Student had verified medical leave earlier in semester. Performance in labs is outstanding (9.2 GPA). Recommend special administrative consideration.",
+        "proctorName": "Prof. Rajesh Sharma"
+      },
+      "adminDecision": {
+        "decidedAt": "2026-10-09T04:00:00.000Z",
+        "decision": "APPROVE",
+        "remarks": "Dean special dispensation granted.",
+        "overrideReason": "Dean Authorized Attendance Override: Verified hospital admission documents on file from August; student represents university as lead innovator.",
+        "adminName": "Dr. Evelyn Vance"
+      },
+      "timeline": [
+        {
+          "id": "tl-6a",
+          "timestamp": "2026-10-07T04:00:00.000Z",
+          "actorName": "Sneha Kulkarni",
+          "actorRole": "student",
+          "action": "Submitted Request"
+        },
+        {
+          "id": "tl-6b",
+          "timestamp": "2026-10-08T04:00:00.000Z",
+          "actorName": "Prof. Rajesh Sharma",
+          "actorRole": "proctor",
+          "action": "Recommended Approval with Note",
+          "remarks": "Medical leave on record. Recommend admin consideration."
+        },
+        {
+          "id": "tl-6c",
+          "timestamp": "2026-10-09T04:00:00.000Z",
+          "actorName": "Dr. Evelyn Vance",
+          "actorRole": "admin",
+          "action": "Authorized Override & Approved",
+          "remarks": "Dean Authorized Attendance Override: Verified hospital admission documents on file."
+        }
+      ],
+      "createdAt": "2026-10-07T04:00:00.000Z",
+      "updatedAt": "2026-10-09T04:00:00.000Z"
+    },
+    {
+      "id": "REQ-2026-007",
+      "studentId": "usr-stud-007",
+      "studentName": "Kabir Mehta",
+      "rollNo": "23CS007",
+      "department": "Computer Science",
+      "proctorId": "usr-proctor-sharma",
+      "proctorName": "Prof. Rajesh Sharma",
+      "eventTitle": "Open Source FOSS Conclave",
+      "category": "Conference",
+      "organizer": "Free Software Foundation India",
+      "location": "Pune University Campus",
+      "mode": "In-Person",
+      "startDate": "2026-11-01",
+      "endDate": "2026-11-02",
+      "odDays": 2,
+      "justification": "Presenting lightning talk on open-source accessibility tools for visually impaired students. Document updated with itinerary.",
+      "supportingDocName": "FOSS_Invitation_Updated_Schedule.pdf",
+      "status": "RESUBMITTED",
+      "attendanceSnapshot": {
+        "conducted": 120,
+        "attended": 102,
+        "percentage": 85,
+        "lastUpdated": "2026-10-07",
+        "isEligible": true
+      },
+      "timeline": [
+        {
+          "id": "tl-7a",
+          "timestamp": "2026-10-07T04:00:00.000Z",
+          "actorName": "Kabir Mehta",
+          "actorRole": "student",
+          "action": "Submitted Request"
+        },
+        {
+          "id": "tl-7b",
+          "timestamp": "2026-10-09T04:00:00.000Z",
+          "actorName": "Prof. Rajesh Sharma",
+          "actorRole": "proctor",
+          "action": "Returned for Correction",
+          "remarks": "Please attach detailed speaker schedule with your name included."
+        },
+        {
+          "id": "tl-7c",
+          "timestamp": "2026-10-11T04:00:00.000Z",
+          "actorName": "Kabir Mehta",
+          "actorRole": "student",
+          "action": "Resubmitted Request",
+          "remarks": "Attached updated schedule confirming speaker slot at 11:30 AM on Day 1."
+        }
+      ],
+      "createdAt": "2026-10-07T04:00:00.000Z",
+      "updatedAt": "2026-10-11T04:00:00.000Z"
+    },
+    {
+      "id": "REQ-2026-008",
+      "studentId": "usr-stud-019",
+      "studentName": "Arjun Singhania",
+      "rollNo": "23CS019",
+      "department": "Information Tech",
+      "proctorId": "usr-proctor-chen",
+      "proctorName": "Prof. Mei Chen",
+      "eventTitle": "Mobile App Innovation Sprint",
+      "category": "Hackathon",
+      "organizer": "Apple Developer Academy & Tech Innovation Lab",
+      "location": "Hyderabad Tech Hub",
+      "mode": "In-Person",
+      "startDate": "2026-10-21",
+      "endDate": "2026-10-23",
+      "odDays": 3,
+      "justification": "Swift Student Challenge mentoring sprint and 48-hour build contest.",
+      "supportingDocName": "Apple_Sprint_Invite_Ticket.pdf",
+      "status": "SUBMITTED",
+      "attendanceSnapshot": {
+        "conducted": 121,
+        "attended": 107,
+        "percentage": 88.4,
+        "lastUpdated": "2026-10-08",
+        "isEligible": true
+      },
+      "timeline": [
+        {
+          "id": "tl-8",
+          "timestamp": "2026-10-10T18:00:00.000Z",
+          "actorName": "Arjun Singhania",
+          "actorRole": "student",
+          "action": "Submitted Request"
+        }
+      ],
+      "createdAt": "2026-10-10T18:00:00.000Z",
+      "updatedAt": "2026-10-10T18:00:00.000Z"
+    },
+    {
+      "id": "REQ-2026-009",
+      "studentId": "usr-stud-020",
+      "studentName": "Shruti Pillai",
+      "rollNo": "23CS020",
+      "department": "Information Tech",
+      "proctorId": "usr-proctor-chen",
+      "proctorName": "Prof. Mei Chen",
+      "eventTitle": "Data Science & Predictive AI Symposium",
+      "category": "Technical Symposium",
+      "organizer": "Society for Industrial & Applied Mathematics",
+      "location": "Chennai Trade Centre",
+      "mode": "In-Person",
+      "startDate": "2026-10-29",
+      "endDate": "2026-10-30",
+      "odDays": 2,
+      "justification": "Attending symposium paper tracks.",
+      "supportingDocName": "Attendee_Pass_Ticket.pdf",
+      "status": "PROCTOR_RECOMMENDED_REJECT",
+      "attendanceSnapshot": {
+        "conducted": 125,
+        "attended": 80,
+        "percentage": 64,
+        "lastUpdated": "2026-10-03",
+        "isEligible": false,
+        "flagReason": "Attendance (64.0%) is below 75% threshold"
+      },
+      "proctorReview": {
+        "reviewedAt": "2026-10-10T04:00:00.000Z",
+        "recommendation": "RECOMMEND_REJECT",
+        "remarks": "Student has critical attendance shortage (64.0%) and is an observer attendee rather than an author or speaker. Non-essential absence.",
+        "proctorName": "Prof. Mei Chen"
+      },
+      "timeline": [
+        {
+          "id": "tl-9a",
+          "timestamp": "2026-10-09T04:00:00.000Z",
+          "actorName": "Shruti Pillai",
+          "actorRole": "student",
+          "action": "Submitted Request"
+        },
+        {
+          "id": "tl-9b",
+          "timestamp": "2026-10-10T04:00:00.000Z",
+          "actorName": "Prof. Mei Chen",
+          "actorRole": "proctor",
+          "action": "Recommended Rejection",
+          "remarks": "Critical attendance shortage (64.0%). Observer status only."
+        }
+      ],
+      "createdAt": "2026-10-09T04:00:00.000Z",
+      "updatedAt": "2026-10-10T04:00:00.000Z"
+    },
+    {
+      "id": "REQ-2026-010",
+      "studentId": "usr-stud-021",
+      "studentName": "Devendra Prasad",
+      "rollNo": "23CS021",
+      "department": "Information Tech",
+      "proctorId": "usr-proctor-chen",
+      "proctorName": "Prof. Mei Chen",
+      "eventTitle": "National Bioinformatics Conclave",
+      "category": "Paper Presentation",
+      "organizer": "All India Institute of Medical Informatics",
+      "location": "Kolkata Science City",
+      "mode": "In-Person",
+      "startDate": "2026-11-18",
+      "endDate": "2026-11-20",
+      "odDays": 3,
+      "justification": "Presenting research paper on genomics data pipelines.",
+      "supportingDocName": "Bioinformatics_Paper_Abstract.pdf",
+      "status": "ADMIN_RETURNED",
+      "attendanceSnapshot": {
+        "conducted": 115,
+        "attended": 96,
+        "percentage": 83.5,
+        "lastUpdated": "2026-10-05",
+        "isEligible": true
+      },
+      "proctorReview": {
+        "reviewedAt": "2026-10-09T04:00:00.000Z",
+        "recommendation": "RECOMMEND_APPROVE",
+        "remarks": "83.5% attendance, good research contribution.",
+        "proctorName": "Prof. Mei Chen"
+      },
+      "adminDecision": {
+        "decidedAt": "2026-10-11T04:00:00.000Z",
+        "decision": "RETURN_CORRECTION",
+        "remarks": "Please furnish the co-authorship letter signed by Department Head for multi-day outstation travel approval.",
+        "adminName": "Dr. Evelyn Vance"
+      },
+      "timeline": [
+        {
+          "id": "tl-10a",
+          "timestamp": "2026-10-08T04:00:00.000Z",
+          "actorName": "Devendra Prasad",
+          "actorRole": "student",
+          "action": "Submitted Request"
+        },
+        {
+          "id": "tl-10b",
+          "timestamp": "2026-10-09T04:00:00.000Z",
+          "actorName": "Prof. Mei Chen",
+          "actorRole": "proctor",
+          "action": "Recommended Approval"
+        },
+        {
+          "id": "tl-10c",
+          "timestamp": "2026-10-11T04:00:00.000Z",
+          "actorName": "Dr. Evelyn Vance",
+          "actorRole": "admin",
+          "action": "Returned for Correction",
+          "remarks": "Furnish co-authorship letter signed by HOD."
+        }
+      ],
+      "createdAt": "2026-10-08T04:00:00.000Z",
+      "updatedAt": "2026-10-11T04:00:00.000Z"
+    },
+    {
+      "id": "REQ-2026-011",
+      "studentId": "usr-stud-022",
+      "studentName": "Alisha D Souza",
+      "rollNo": "23CS022",
+      "department": "Information Tech",
+      "proctorId": "usr-proctor-chen",
+      "proctorName": "Prof. Mei Chen",
+      "eventTitle": "Quantum Algorithms Bootcamp",
+      "category": "Workshop",
+      "organizer": "IBM Quantum Educators Network",
+      "location": "Virtual / Online",
+      "mode": "Virtual",
+      "startDate": "2026-10-25",
+      "endDate": "2026-10-26",
+      "odDays": 2,
+      "justification": "Selected for competitive IBM Quantum student cohort.",
+      "supportingDocName": "IBM_Quantum_Cohort_Selection.pdf",
+      "status": "SUBMITTED",
+      "attendanceSnapshot": {
+        "conducted": 110,
+        "attended": 87,
+        "percentage": 79,
+        "lastUpdated": "2026-08-25",
+        "isEligible": false,
+        "flagReason": "Attendance data is outdated (updated 48 days ago, exceeds 30-day limit)"
+      },
+      "timeline": [
+        {
+          "id": "tl-11",
+          "timestamp": "2026-10-10T04:00:00.000Z",
+          "actorName": "Alisha D Souza",
+          "actorRole": "student",
+          "action": "Submitted Request",
+          "remarks": "Submitted request. Note: Attendance record flag triggered for freshness verification."
+        }
+      ],
+      "createdAt": "2026-10-10T04:00:00.000Z",
+      "updatedAt": "2026-10-10T04:00:00.000Z"
+    },
+    {
+      "id": "REQ-2026-012",
+      "studentId": "usr-stud-023",
+      "studentName": "Varun Nambiar",
+      "rollNo": "23CS023",
+      "department": "Information Tech",
+      "proctorId": "usr-proctor-chen",
+      "proctorName": "Prof. Mei Chen",
+      "eventTitle": "Smart India Hardware Hackathon",
+      "category": "Hackathon",
+      "organizer": "Ministry of Education Innovation Cell",
+      "location": "Mumbai Nodal Center",
+      "mode": "In-Person",
+      "startDate": "2026-11-08",
+      "endDate": "2026-11-10",
+      "odDays": 3,
+      "justification": "Qualified team member for hardware prototype build.",
+      "supportingDocName": "SIH_Hardware_Team_Selection.pdf",
+      "status": "SUBMITTED",
+      "attendanceSnapshot": {
+        "conducted": null,
+        "attended": null,
+        "percentage": null,
+        "lastUpdated": null,
+        "isEligible": false,
+        "flagReason": "Missing attendance data - verification required prior to approval"
+      },
+      "timeline": [
+        {
+          "id": "tl-12",
+          "timestamp": "2026-10-11T02:00:00.000Z",
+          "actorName": "Varun Nambiar",
+          "actorRole": "student",
+          "action": "Submitted Request",
+          "remarks": "Submitted. Missing attendance record must be imported/verified."
+        }
+      ],
+      "createdAt": "2026-10-11T02:00:00.000Z",
+      "updatedAt": "2026-10-11T02:00:00.000Z"
+    }
+  ],
+  "settings": {
+    "attendanceThreshold": 75,
+    "freshnessLimitDays": 30,
+    "universityName": "Apex Institute of Technology & Sciences",
+    "portalName": "Permitrix",
+    "academicYear": "2026-2027",
+    "semester": "Fall / Odd Semester"
+  },
+  "notifications": [
+    {
+      "id": "notif-1",
+      "userId": "usr-stud-003",
+      "title": "Event Request Approved",
+      "message": "Your request for \"National Cyber Security CTF Challenge\" has been approved by Dean Dr. Evelyn Vance for 2 OD days.",
+      "type": "success",
+      "requestId": "REQ-2026-003",
+      "read": true,
+      "createdAt": "2026-10-08T04:00:00.000Z"
+    },
+    {
+      "id": "notif-2",
+      "userId": "usr-stud-004",
+      "title": "Event Request Status Update",
+      "message": "Your request for \"Cloud Native DevOps Summit\" was reviewed by administration.",
+      "type": "error",
+      "requestId": "REQ-2026-004",
+      "read": false,
+      "createdAt": "2026-10-10T04:00:00.000Z"
+    },
+    {
+      "id": "notif-3",
+      "userId": "usr-stud-005",
+      "title": "Action Required: Request Returned",
+      "message": "Your proctor Prof. Rajesh Sharma returned request \"National Robotics Expo\" with remarks for correction.",
+      "type": "warning",
+      "requestId": "REQ-2026-005",
+      "read": false,
+      "createdAt": "2026-10-11T04:00:00.000Z"
+    },
+    {
+      "id": "notif-4",
+      "userId": "usr-proctor-sharma",
+      "title": "New Event Requests Pending Review",
+      "message": "Student Aarav Patel submitted a request for \"National University Hackathon 2026\".",
+      "type": "info",
+      "requestId": "REQ-2026-001",
+      "read": false,
+      "createdAt": "2026-10-11T00:00:00.000Z"
+    },
+    {
+      "id": "notif-5",
+      "userId": "usr-admin-1",
+      "title": "Proctor Recommendation Received",
+      "message": "Prof. Rajesh Sharma recommended approval for Diya Sengupta (IEEE International Conference). Awaiting your decision.",
+      "type": "info",
+      "requestId": "REQ-2026-002",
+      "read": false,
+      "createdAt": "2026-10-10T04:00:00.000Z"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "audit-1791803473628",
+      "timestamp": "2026-10-12T11:11:13.628Z",
+      "userId": "usr-stud-001",
+      "userName": "Aarav Patel",
+      "userRole": "student",
+      "action": "USER_LOGIN",
+      "entityType": "AUTH",
+      "details": "User logged in successfully via student portal."
+    },
+    {
+      "id": "audit-1",
+      "timestamp": "2026-09-28T04:00:00.000Z",
+      "userId": "usr-admin-1",
+      "userName": "Dr. Evelyn Vance",
+      "userRole": "admin",
+      "action": "SYSTEM_INITIALIZATION",
+      "entityType": "SETTINGS",
+      "details": "Permitrix Academic Session initialized. Default threshold set to 75%, freshness set to 30 days."
+    },
+    {
+      "id": "audit-2",
+      "timestamp": "2026-09-30T04:00:00.000Z",
+      "userId": "usr-admin-1",
+      "userName": "Dr. Evelyn Vance",
+      "userRole": "admin",
+      "action": "BATCH_ATTENDANCE_IMPORTED",
+      "entityType": "ATTENDANCE_IMPORT",
+      "details": "Uploaded Semester 5 interim attendance master spreadsheet (32 verified records)."
+    },
+    {
+      "id": "audit-3",
+      "timestamp": "2026-10-08T04:00:00.000Z",
+      "userId": "usr-admin-1",
+      "userName": "Dr. Evelyn Vance",
+      "userRole": "admin",
+      "action": "REQUEST_FINAL_APPROVAL",
+      "entityType": "REQUEST",
+      "entityId": "REQ-2026-003",
+      "details": "Approved request REQ-2026-003 for Rohan Nair (National Cyber Security CTF). OD days: 2."
+    },
+    {
+      "id": "audit-4",
+      "timestamp": "2026-10-09T04:00:00.000Z",
+      "userId": "usr-admin-1",
+      "userName": "Dr. Evelyn Vance",
+      "userRole": "admin",
+      "action": "REQUEST_ATTENDANCE_OVERRIDE_APPROVED",
+      "entityType": "REQUEST",
+      "entityId": "REQ-2026-006",
+      "details": "Authorized attendance override (68.0% < 75%) for Sneha Kulkarni on medical and national team representation grounds."
+    },
+    {
+      "id": "audit-5",
+      "timestamp": "2026-10-10T04:00:00.000Z",
+      "userId": "usr-admin-1",
+      "userName": "Dr. Evelyn Vance",
+      "userRole": "admin",
+      "action": "REQUEST_FINAL_REJECTION",
+      "entityType": "REQUEST",
+      "entityId": "REQ-2026-004",
+      "details": "Rejected request REQ-2026-004 for Ananya Iyer. Reason: Non-competitive virtual event during practical examination week."
+    }
+  ]
+}
